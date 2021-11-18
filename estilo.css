@@ -54,6 +54,10 @@ img {
 /* /TEXTOS */
 
 /* BOTÕES */
+.disable-dbl-tap-zoom {
+  touch-action: manipulation;
+}
+
 #btn-contar:hover, #btn-reset:hover {
     background: #ffd1d1;
 }
